@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 山雨欲来风满楼11
+title: 山雨欲来风满楼
 subtitle: ''
 description: ''
 keywords:
@@ -30,7 +30,7 @@ banner_img: /image/default.jpg
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://patrickstar9808.github.io/Patrickst
+url: https://patrickstar9808.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -121,5 +121,5 @@ theme: fluid  # 指定主题
 ### 指令 hexo deploy 上传博客   先执行 cnpm install hexo-deployer-git --save 下载相关组件
 deploy:
   type: git         # type为git
-  repo: git@github.com:patrickstar9808/Patrickst.git # 仓库的URL
+  repo: git@github.com:patrickstar9808/patrickst.git # 仓库的URL
   branch: gh-pages
